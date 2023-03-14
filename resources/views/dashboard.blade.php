@@ -14,23 +14,30 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Individual Conversation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Community Platform</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Features
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Share Your Experience</a></li>
-              <li><a class="dropdown-item" href="#">Make a Donation</a></li>
+              <li><a class="dropdown-item" href="#">Lawyers</a></li>
+              <li><a class="dropdown-item" href="layouts/donation">Phsychologist</a></li>
+              <li><a class="dropdown-item" href="layouts/donation">Community platform</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Share your experiences</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Make a donation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Brand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
