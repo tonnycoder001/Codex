@@ -49,4 +49,4 @@
   </div>
 </nav>
 </x-app-layout>
-@include('chat/pages/app')
+
