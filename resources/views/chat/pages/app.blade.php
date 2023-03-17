@@ -1,4 +1,4 @@
-@include('Chatify::layouts.headLinks')
+@include('chat::layouts.headLinks')
 <div class="messenger">
     {{-- ----------------------Users/Groups lists side---------------------- --}}
     <div class="messenger-listView">
@@ -35,7 +35,7 @@
                </div>
 
                {{-- Saved Messages --}}
-               {!! view('Chatify::layouts.listItem', ['get' => 'saved']) !!}
+               {!! view('chat::layouts.listItem', ['get' => 'saved']) !!}
 
                {{-- Contact --}}
                <div class="listOfContacts" style="width: 100%;height: calc(100% - 200px);position: relative;"></div>
@@ -105,7 +105,7 @@
                 </div>
             </div>
             {{-- Send Message Form --}}
-            @include('Chatify::layouts.sendForm')
+            @include('chat::layouts.sendForm')
         </div>
     </div>
     {{-- ---------------------- Info side ---------------------- --}}
@@ -118,5 +118,5 @@
     </div>
 </div>
 
-@include('Chatify::layouts.modals')
-@include('Chatify::layouts.footerLinks')
+@include('chat::layouts.modals')
+@include('chat::layouts.footerLinks')

@@ -28,7 +28,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Share your experiences</a> 
+            <a class="nav-link active" aria-current="page" href="#">Share your experiences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Make a donation</a>
@@ -49,3 +49,4 @@
   </div>
 </nav>
 </x-app-layout>
+@include('chat::pages.app.')
