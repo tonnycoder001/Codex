@@ -49,4 +49,5 @@
   </div>
 </nav>
 </x-app-layout>
+@include('Chatify.pages.app')
 
